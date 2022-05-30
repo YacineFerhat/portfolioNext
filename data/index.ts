@@ -3,6 +3,7 @@ import serviclim from 'assets/screens/serviclim.png'
 import mylkee from 'assets/screens/mylkee.png'
 import laflore from 'assets/screens/laflore.png'
 import dowi from 'assets/screens/dowi.png'
+import takat from 'assets/screens/takat.png'
 export const projects = [
   {
     picture: adlisis.src,
@@ -37,5 +38,12 @@ export const projects = [
     url: 'https://dowi-client.vercel.app',
     description:
       'A plateform to lis the schools, it has 4 levels of users, the admin, the student, the school and the super admin, the schools can create their accounts and fill their courses, a student can create his account in order to get in touche with a school to start a session, the admin manages the plateform and super admin controls evrything from a higher view',
+  },
+  {
+    picture: takat.src,
+    title: 'Takat',
+    url: 'https://takat.io',
+    description:
+      'A plateform that allows content creator to earn from their audiance, by creating paid sessions with their followers, where an influencer can manage his schedule and sell his talks sessions, built using ReactJs and NestJs',
   },
 ]

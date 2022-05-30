@@ -1,4 +1,6 @@
 export const Footer = () => {
+  const date = new Date()
+  const year = date.getFullYear()
   return (
     <footer className="flex h-24 w-full items-center justify-center border-t">
       <a
@@ -7,7 +9,7 @@ export const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by{' '}
+        © {year} Copyright Yacine Ferhat{' '}
       </a>
     </footer>
   )
