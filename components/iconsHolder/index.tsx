@@ -9,10 +9,10 @@ import Link from 'next/link'
 export const IconsHolder = () => {
   return (
     <div className="absolute w-full">
-      <div className="relative w-full">
+      <div className="relative h-full w-full">
         <Link href="https://reactjs.org">
           <img
-            className="absolute top-4  right-1 w-16 animate-bounce cursor-pointer	 rounded-full duration-1000 md:w-20 lg:w-24"
+            className="absolute top-4  right-1 w-16 animate-bounce cursor-pointer	 rounded-full duration-1000 md:w-20 xl:w-24"
             src={picture1.src}
             alt={picture1.blurDataURL}
           />
@@ -20,27 +20,27 @@ export const IconsHolder = () => {
         <Link href="https://nextjs.org">
           <img
             src={picture2.src}
-            className="absolute -top-10 right-32 w-12 animate-bounce rounded-full duration-1000 md:w-16 lg:w-20"
+            className="absolute -top-10 right-32 flex w-12 animate-bounce rounded-full duration-1000 md:hidden md:w-16 lg:flex xl:w-20"
           />
         </Link>
-        <div className="absolute top-40  -right-20 flex w-12 animate-bounce cursor-pointer items-center justify-center rounded-full bg-c-l-green p-2 duration-700 md:w-16 lg:w-20">
+        <div className="absolute top-40  -right-20 flex w-12 animate-bounce cursor-pointer items-center justify-center rounded-full bg-c-l-green p-2 duration-700 md:w-16 xl:w-20">
           <Link href="https://nodejs.org">
             <img src={picture4.src} alt={picture4.blurDataURL} />
           </Link>
         </div>{' '}
-        <div className="absolute -top-12  left-20 flex w-20 animate-bounce cursor-pointer items-center justify-center rounded-full bg-black p-2 duration-1000 md:w-24 lg:w-28">
+        <div className="absolute -top-12  left-20 flex w-16 animate-bounce cursor-pointer items-center justify-center rounded-full bg-black p-2 duration-1000 md:w-20 xl:w-28">
           <Link href="https://nestjs.com">
             <img src={picture3.src} alt={picture3.blurDataURL} />
           </Link>
         </div>{' '}
-        <div className="absolute top-24  -left-10 flex w-16 animate-bounce cursor-pointer items-center justify-center rounded-full bg-c-b p-2 duration-500 md:w-20 lg:w-24">
+        <div className="absolute top-24  -left-10 flex w-12 animate-bounce cursor-pointer items-center justify-center rounded-full bg-c-b p-2 duration-500 md:w-16 xl:w-20">
           <Link href="https://www.mongodb.com">
             <img src={picture5.src} alt={picture5.blurDataURL} />
           </Link>
         </div>{' '}
         <Link href="https://www.typescriptlang.org">
           <img
-            className="absolute -top-16 left-52 hidden w-12 animate-bounce cursor-pointer rounded-full duration-700 md:w-16 lg:flex lg:w-20"
+            className="absolute -top-16 left-52 hidden w-12 animate-bounce cursor-pointer rounded-full duration-700 md:w-16 xl:flex lg:w-20"
             src={picture6.src}
             alt={picture6.blurDataURL}
           />
