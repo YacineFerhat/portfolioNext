@@ -23,7 +23,7 @@ export const IconsHolder = () => {
             className="absolute -top-10 right-32 flex w-12 animate-bounce rounded-full duration-1000 md:hidden md:w-16 lg:flex xl:w-20"
           />
         </Link>
-        <div className="absolute top-40  -right-20 flex w-12 animate-bounce cursor-pointer items-center justify-center rounded-full bg-c-l-green p-2 duration-700 md:w-16 xl:w-20">
+        <div className="absolute top-40 hidden md:flex  -right-20  w-12 animate-bounce cursor-pointer items-center justify-center rounded-full bg-c-l-green p-2 duration-700 md:w-16 xl:w-20">
           <Link href="https://nodejs.org">
             <img src={picture4.src} alt={picture4.blurDataURL} />
           </Link>
