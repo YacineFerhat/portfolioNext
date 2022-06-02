@@ -8,20 +8,20 @@ export const projects = [
   {
     picture: adlisis.src,
     title: 'Adlisis',
-    url: 'adlisis.dz',
+    url: 'https://adlisis.dz',
     description:
       'An Ecommerce website, made for a client, has one admin only, has all the features needed for an ecommerce plateform, the Crud of the products, delivery zones, categories, discounts and special offers, built using the Mern stack, hosted on a vps using Nginx',
   },
   {
     picture: serviclim.src,
     title: 'Serviclim',
-    url: 'serviclim.dz',
+    url: 'https://serviclim.dz',
     description: 'A simple landing page built using HTML and CSS.',
   },
   {
     picture: mylkee.src,
     title: 'Mylkee',
-    url: 'mylkee.io',
+    url: 'https://mylkee.io',
     description:
       'A listing website built to show case the companies in the contruction field in France, the listing part is built using NextJs and NestJs, hosted on GCP.',
   },

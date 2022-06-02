@@ -26,7 +26,9 @@ export const ProjectCard = ({
         <p className="tracking-widest	"> {description}</p>{' '}
         {url !== '' && (
           <Button className="my-8 rounded-3xl border bg-c-action p-4 font-bold text-white shadow-xl ">
-            <Link href={url}>Check it</Link>
+            <Link href={url} passHref={true}>
+              Check it
+            </Link>
           </Button>
         )}
       </Modal>
