@@ -8,7 +8,7 @@ export const Container = ({ children }: Props) => {
   return (
     <div className="font-nunito">
       <Head>
-        <title>Create Next App</title>
+        <title>Yacine ferhat's portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
